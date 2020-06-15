@@ -3,46 +3,54 @@
   <head>
     <meta charset="utf-8">
     <title>Contact Form</title>
+    <link href="Assets/CSS/Reset.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="Assets/CSS/style.css" rel="stylesheet">
-    <style>
-      div {
-        width: 960px;
-        padding-top: -60px;
-      }
+    <!-- <link href="Assets/CSS/Small Screen.css" rel="stylesheet"> -->
+    <!-- <link href="Assets/CSS/Med Screen.css" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" media="(min-width: 500px)" href="min-500px.css"> -->  
+     <!-- <style> 
+          div {
+            width: 960px;
+            padding-top: -60px;
+          } -->
     </style>
     </head>
-  <body>
-    <header>
-      <a class="logo" href="index.html">Karna Cutolo</a>
-      <!-- Navbar (sit on top) --> 
-      <nav>
-          <a href="index.html"> About</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="contact.html">Contact</a>
-  </nav>
-</header>
-  <section class="container" style="margin-top: 10px; margin-bottom: 100px; height: 450px; overflow: hidden;">
-    <div>
-    <h1>Contact</h1>
-    </div>  
-      <form>
-          Name<br>
-          <input type="text" name="fullname" value="Jane/John Smith" style="width: 100%; padding: 10px;"/>
-          <br>
-          Email<br>
-          <input type="text" name="email" value="example@gmail.com" style="width: 100%; padding: 10px;"/>
-          <br>
-          Message<br>
-          <textarea name="message" style="width: 100%; padding: 30px;">
-            </textarea>
-          <br>
-          <input class="button" type="submit" name="send"/>
-
-
-      </form>
-    </section>
-    <footer>
-      Copyright © Karna Cutolo
-  </footer>
-  </body>
-</html>
+      <body>
+           <!-- Navbar (sit on top) --> 
+        <div class="container-fluid" id="headNav">
+           <div class="container" id="titleBox">
+              <a class="logo" href="index.html">Karna Cutolo</a>
+              <nav>
+                      <a href="index.html"> About</a>
+                      <a href="portfolio.html">Portfolio</a>
+                      <a href="contact.html">Contact</a>
+              </nav>
+            </div>
+        </div>
+      <section class="container" style="margin-top: 10px; margin-bottom: 100px; height: 450px; overflow: hidden;">
+        <div>
+        <h1>Contact</h1>
+        </div>  
+          <form>
+              Name<br>
+              <input type="text" name="fullname" value="Jane/John Smith" style="width: 100%; padding: 10px;"/>
+              <br>
+              Email<br>
+              <input type="text" name="email" value="example@gmail.com" style="width: 100%; padding: 10px;"/>
+              <br>
+              Message<br>
+              <textarea name="message" style="width: 100%; padding: 30px;">
+                </textarea>
+              <br>
+              <input class="button" type="submit" name="send"/>
+    
+    
+          </form>
+        </section>
+        <footer>
+          Copyright © Karna Cutolo
+      </footer>
+      </body>
+    </html>
+    
